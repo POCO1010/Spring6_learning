@@ -1,0 +1,8 @@
+2023-03-31 at 16:16:49 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4149c063
+2023-03-31 at 16:16:49 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-lifecycle.xml]
+2023-03-31 at 16:16:49 CST DEBUG org.springframework.context.support.AbstractApplicationContext 1029 doClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@4149c063, started on Fri Mar 31 16:16:49 CST 2023
+2023-03-31 at 16:17:06 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b86805d
+2023-03-31 at 16:17:06 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-lifecycle.xml]
+2023-03-31 at 16:17:14 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4b86805d
+2023-03-31 at 16:17:14 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-lifecycle.xml]
+2023-03-31 at 16:17:14 CST DEBUG org.springframework.context.support.AbstractApplicationContext 1029 doClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@4b86805d, started on Fri Mar 31 16:17:14 CST 2023
