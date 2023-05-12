@@ -5,6 +5,6 @@
 
     <!-- scope属性：取值singleton（默认值），bean在IOC容器中只有一个实例，IOC容器初始化时创建对象 -->
     <!-- scope属性：取值prototype，bean在IOC容器中可以有多个实例，getBean()时创建对象 -->
-    <bean class="Spring6.User" scope="prototype"></bean>
+    <bean class="Spring6.bean.User" scope="prototype"></bean>
 
 </beans>

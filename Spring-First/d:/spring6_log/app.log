@@ -18,15 +18,15 @@
 2023-03-29 at 22:53:07 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@25a6944c
 2023-03-29 at 22:53:07 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
 2023-03-29 at 22:53:07 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
-2023-03-29 at 22:53:07 CST INFO  Spring6.TestUser 44 testUserObject2 - 执行成功
+2023-03-29 at 22:53:07 CST INFO  Spring6.TestUserIoc 44 testUserObject2 - 执行成功
 2023-03-29 at 23:13:50 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e1fa5b1
 2023-03-29 at 23:13:50 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
 2023-03-29 at 23:13:50 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
-2023-03-29 at 23:13:50 CST INFO  Spring6.TestUser 57 testUserObject3 - 执行成功
+2023-03-29 at 23:13:50 CST INFO  Spring6.TestUserIoc 57 testUserObject3 - 执行成功
 2023-03-29 at 23:14:24 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e1fa5b1
 2023-03-29 at 23:14:24 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [bean.xml]
 2023-03-29 at 23:14:24 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'user'
-2023-03-29 at 23:14:24 CST INFO  Spring6.TestUser 59 testUserObject3 - 执行成功
+2023-03-29 at 23:14:24 CST INFO  Spring6.TestUserIoc 59 testUserObject3 - 执行成功
 2023-03-30 at 10:06:15 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6b00f608
 2023-03-30 at 10:06:15 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-di.xml]
 2023-03-30 at 10:06:15 CST DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'studentOne'
@@ -680,3 +680,6 @@
 2023-03-31 at 16:15:12 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3d97a632
 2023-03-31 at 16:15:12 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-lifecycle.xml]
 2023-03-31 at 16:15:12 CST DEBUG org.springframework.context.support.AbstractApplicationContext 1029 doClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3d97a632, started on Fri Mar 31 16:15:12 CST 2023
+2023-04-22 at 13:20:12 CST DEBUG org.springframework.context.support.AbstractApplicationContext 630 prepareRefresh - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@49872d67
+2023-04-22 at 13:20:12 CST DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader 393 doLoadBeanDefinitions - Loaded 1 bean definitions from class path resource [spring-lifecycle.xml]
+2023-04-22 at 13:20:12 CST DEBUG org.springframework.context.support.AbstractApplicationContext 1029 doClose - Closing org.springframework.context.support.ClassPathXmlApplicationContext@49872d67, started on Sat Apr 22 13:20:12 CST 2023

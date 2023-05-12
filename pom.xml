@@ -10,6 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Spring-First</module>
+        <module>spring6-ioc-annotation</module>
+        <module>Spring6-reflect</module>
+        <module>Spring6-myIoc</module>
+        <module>spring6-aop</module>
     </modules>
 
     <properties>
@@ -17,5 +21,13 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+    </dependencies>
 
 </project>

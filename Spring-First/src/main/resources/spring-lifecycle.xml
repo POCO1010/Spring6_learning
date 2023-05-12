@@ -5,7 +5,7 @@
 
     <!-- 使用init-method属性指定初始化方法 -->
     <!-- 使用destroy-method属性指定销毁方法 -->
-    <bean class="Spring6.User" scope="prototype" init-method="initMethod" destroy-method="destroyMethod">
+    <bean class="Spring6.bean.User" scope="prototype" init-method="initMethod" destroy-method="destroyMethod">
         <property name="id" value="1001"></property>
         <property name="username" value="admin"></property>
         <property name="password" value="123456"></property>
