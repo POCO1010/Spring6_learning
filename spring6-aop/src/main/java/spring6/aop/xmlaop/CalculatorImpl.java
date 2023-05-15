@@ -1,5 +1,8 @@
 package spring6.aop.xmlaop;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class CalculatorImpl implements Calculator {
     @Override
     public int add(int i, int j) {
