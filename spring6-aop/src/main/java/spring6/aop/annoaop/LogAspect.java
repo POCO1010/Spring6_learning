@@ -40,7 +40,7 @@ public class LogAspect {
         System.out.println("Logger-->异常通知,方法名称："+methodName+",异常信息："+ex);
     }
     // 后置 @After()
-    @After(value = "execution(* spring6.aop.annoaop.CalculatorImpl.*(..))")
+    @After(value = "pointcut()")// 重用切入点表达式
     public void afterMethod(JoinPoint joinPoint){
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Logger-->后置通知,方法名称："+methodName);
@@ -63,5 +63,8 @@ public class LogAspect {
             System.out.println("环绕通知==目标方法执行完毕执行");
         }return result;
     }
+    //重用切入点表达式
+    @Pointcut(value = "execution(* spring6.aop.annoaop.CalculatorImpl.*(..))")
+    public void pointcut(){}
 
 }
