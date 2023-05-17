@@ -14,6 +14,8 @@
         <module>Spring6-reflect</module>
         <module>Spring6-myIoc</module>
         <module>spring6-aop</module>
+        <module>spring6-junit</module>
+        <module>spring6-jdbc-tx</module>
     </modules>
 
     <properties>
