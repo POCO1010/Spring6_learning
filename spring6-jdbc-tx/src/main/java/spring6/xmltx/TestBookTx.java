@@ -1,18 +1,17 @@
-package spring6.tx;
+package spring6.xmltx;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
-import spring6.tx.controller.BookController;
+import spring6.xmltx.controller.BookController;
 
-@SpringJUnitConfig(locations = "classpath:beans.xml")
-public class TestBookTx{
+@SpringJUnitConfig(locations = "classpath:beans-xml.xml")
+public class TestBookTx {
     @Autowired
     private BookController bookController;
 
     @Test
     public void testBuyBook(){
-        Integer[] bookIds = {1,2};
-        bookController.checkoutBook(bookIds,1);
+        bookController.buyBook(1,1);
     }
 }

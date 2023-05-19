@@ -1,14 +1,14 @@
-package spring6.tx.service;
+package spring6.xmltx.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import spring6.tx.dao.BookDao;
+import spring6.xmltx.dao.BookDao;
 
-@Transactional(propagation = Propagation.REQUIRED)
+
 @Service
-public class BookServiceImpl implements BookService{
+public class BookServiceImpl implements BookService {
     @Autowired
     private BookDao bookDao;
 
